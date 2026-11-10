@@ -8,8 +8,8 @@ public class Punto3Paquetes {
     private Punto3Paquetes(){
 
     }
-        public static Cola<Paquete> seleccionarPaquetes(Cola<Paquete> pendientes, int capacidad){
-          return seleccionarPaquetes(pendientes, capacidad);
+    public static Cola<Paquete> seleccionarPaquetes(Cola<Paquete> pendientes, int capacidad){
+        return seleccionarPaquetes(pendientes, capacidad, false);
     }
     public static Cola<Paquete> seleccionarPaquetes(Cola<Paquete> pendientes, int capacidad, boolean mostrarTraza) {
         Cola<Paquete> seleccionados = new Cola<>();
