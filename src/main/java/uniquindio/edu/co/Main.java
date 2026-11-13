@@ -21,7 +21,6 @@ import java.nio.charset.StandardCharsets;
 public class Main {
 
     public static void main(String[] args) {
-        // Para que tildes, flechas y los dibujos de los árboles se vean bien en cualquier consola.
         System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out), true, StandardCharsets.UTF_8));
 
         String opcion = args.length > 0 ? args[0].trim() : "todos";
